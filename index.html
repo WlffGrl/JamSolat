@@ -15,9 +15,6 @@
 
     <!-- Header & Status Alarm -->
     <header class="container mx-auto px-4 py-6 flex justify-between items-center">
-        <h1 class="text-2xl font-bold tracking-wide text-emerald-400">
-            <i class="fa-solid fa-mosque mr-2"></i>NuansaIslami
-        </h1>
         <!-- Tombol disembunyikan secara default (opacity-0) dan muncul saat di-hover (hover:opacity-100) -->
         <button id="toggle-alarm" class="opacity-0 hover:opacity-100 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg shadow-emerald-950/50">
             <i id="alarm-icon" class="fa-solid fa-bell"></i>
@@ -72,11 +69,6 @@
 
         </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="text-center py-6 text-slate-500 text-xs border-t border-slate-800/60">
-        <p>&copy; 2026 NuansaIslami. Menggunakan estimasi waktu lokal Kota Bandung.</p>
-    </footer>
 
     <!-- Audio untuk Alarm (Menggunakan Web Audio API agar tidak perlu file eksternal) -->
     <script>
